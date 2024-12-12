@@ -7,18 +7,18 @@ import asyncio, datetime, time
 
 
 ACCEPTED_TEXT = "Hey {user}\n\nYour Request For {chat} Is Accepted ✅"
-START_TEXT = "Hai {}\n\nI am Auto Request Accept Bot With Working For All Channel. Add Me In Your Channel To Use"
+START_TEXT = "Ram Ram Bhagat 🙏 {}\n\nI am Auto Request Accept Bot With Working For All Channel. Add Me In Your Channel Admin List To Use Me"
 
-API_ID = int(env.get('API_ID'))
-API_HASH = env.get('API_HASH')
-BOT_TOKEN = env.get('BOT_TOKEN')
-DB_URL = env.get('DB_URL')
+API_ID = int(env.get('28421635'))
+API_HASH = env.get('a4856de5fec0b9b3601ff06425f3f58e')
+BOT_TOKEN = env.get('')
+DB_URL = env.get('mongodb+srv://PrimeRp:JNTymVXjKzBbDtiv@cluster0.rydwk.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0')
 ADMINS = int(env.get('ADMINS'))
 
 Dbclient = AsyncIOMotorClient(DB_URL)
 Cluster = Dbclient['Cluster0']
 Data = Cluster['users']
-Bot = Client(name='AutoAcceptBot', api_id=API_ID, api_hash=API_HASH, bot_token=BOT_TOKEN)
+Bot = Client(name='MinatoApprovalxRobot', api_id=API_ID, api_hash=API_HASH, bot_token=BOT_TOKEN)
        
       
      
