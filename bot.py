@@ -13,7 +13,7 @@ API_ID = int(env.get('28421635'))
 API_HASH = env.get('a4856de5fec0b9b3601ff06425f3f58e')
 BOT_TOKEN = env.get('')
 DB_URL = env.get('mongodb+srv://PrimeRp:JNTymVXjKzBbDtiv@cluster0.rydwk.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0')
-ADMINS = int(env.get('ADMINS'))
+ADMINS = int(env.get('1534632634'))
 
 Dbclient = AsyncIOMotorClient(DB_URL)
 Cluster = Dbclient['Cluster0']
